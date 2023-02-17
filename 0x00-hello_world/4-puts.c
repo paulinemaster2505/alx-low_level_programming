@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+<<<<<<< HEAD
  *  main - Entry
  *  Return: Always 0
  */
