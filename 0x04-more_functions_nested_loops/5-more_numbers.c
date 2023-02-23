@@ -1,20 +1,23 @@
 #include "main.h"
 
 /**
- * print_line - printing lines
- * @n: number of times
- *
- * Return: void
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
 
-
-void print_line(int n)
+void more_numbers(void)
 {
-int i;
 
-for (i = 0; i < n; i++)
-{
-_putchar('_');
-}
-_putchar('\n');
+int i, j;
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
+		}
+			_putchar('\n');
+		}
 }
